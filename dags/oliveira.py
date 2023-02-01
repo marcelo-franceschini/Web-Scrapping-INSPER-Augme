@@ -117,7 +117,7 @@ def oliveira():
     def send_new_files_email(email_body):
         with emailVanadio.AugmeMail() as mailbox:
             # Colocar os emails aqui e assunto aqui
-            mailbox.send_mail(receiver="", subject="", body=email_body)
+            mailbox.send_mail(receiver="", subject="OLIVEIRA", body=email_body)
 
     ativos_excel = get_ifs_from_excel(PATH_EXCEL, "OLIVEIRA TRUST DTVM ")
     ativos_site = get_ids_from_website()
