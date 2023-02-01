@@ -3,6 +3,8 @@ __pycache__/
 *$py.class
 *.manifest
 *.spec
-downloads/*
+downloads/oliveira/*
+downloads/pentagono/*
+downloads/vortx/*
 Lista Codigos e Fiduciário.xlsx
 Capstone.pptx
