@@ -27,6 +27,7 @@ URL_TO_IGNORE = r"https://www.oliveiratrust.com.br/portal/leitor/#"
     tags=["WebScrapping", "Oliveira"],
 )
 def oliveira():
+    
     @task()
     def get_ifs_from_excel(PATH_EXCEL, ag_fid):
         """

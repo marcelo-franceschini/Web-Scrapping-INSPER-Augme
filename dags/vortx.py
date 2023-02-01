@@ -25,6 +25,7 @@ PATH_DOWNLOAD = r"/home/data/downloads/vortx"
     tags=["WebScrapping", "Vortx"],
 )
 def vortx():
+    
     @task()
     def get_ifs_from_excel(PATH_EXCEL, ag_fid):
         """
